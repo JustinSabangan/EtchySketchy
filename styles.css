@@ -1,5 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    box-sizing: border-box;
+}
+
 .container {
-    background-color: blue;
-    width: 67;
-    height: 67;
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    margin: auto;
+}
+
+.square {
+    border: 1px solid black;
+    box-sizing: border-box;
+    flex: 0 0 calc(100% / 16);
 }
