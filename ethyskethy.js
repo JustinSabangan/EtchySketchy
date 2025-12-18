@@ -1,11 +1,11 @@
+
 let button = document.createElement('button');
 button.textContent = "Change grid";
 document.body.appendChild(button);
-
 let div = document.querySelector(".container");
 
 button.addEventListener('click', () => {
-    let value = prompt("Combien de carrés ?");
+    let value = prompt("Change Grid Size from 1 to 99");
 
     if (value >= 100) {
         return;
